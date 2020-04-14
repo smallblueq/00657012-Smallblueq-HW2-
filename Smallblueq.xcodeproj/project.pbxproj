@@ -10,22 +10,35 @@
 		551C27AF244324600040DC28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27AE244324600040DC28 /* AppDelegate.swift */; };
 		551C27B1244324600040DC28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27B0244324600040DC28 /* SceneDelegate.swift */; };
 		551C27B4244324600040DC28 /* Smallblueq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 551C27B2244324600040DC28 /* Smallblueq.xcdatamodeld */; };
-		551C27B6244324600040DC28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27B5244324600040DC28 /* ContentView.swift */; };
+		551C27B6244324600040DC28 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27B5244324600040DC28 /* CharacterList.swift */; };
 		551C27B8244324640040DC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551C27B7244324640040DC28 /* Assets.xcassets */; };
 		551C27BB244324640040DC28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551C27BA244324640040DC28 /* Preview Assets.xcassets */; };
 		551C27BE244324640040DC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551C27BC244324640040DC28 /* LaunchScreen.storyboard */; };
+		551C27C624432FCF0040DC28 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27C524432FCF0040DC28 /* CharacterDetail.swift */; };
+		551C27C8244330120040DC28 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27C7244330120040DC28 /* Character.swift */; };
+		551C27CA2443303D0040DC28 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27C92443303D0040DC28 /* CharacterData.swift */; };
+		551C27CC244357090040DC28 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27CB244357090040DC28 /* CharacterRow.swift */; };
+		551C27CE2443577A0040DC28 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27CD2443577A0040DC28 /* AppView.swift */; };
+		551C27D0244357E10040DC28 /* CharacterOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C27CF244357E10040DC28 /* CharacterOverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		551C27AB244324600040DC28 /* Smallblueq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smallblueq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		331402AB24449A2000444ECF /* Werewolf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Werewolf.entitlements; sourceTree = "<group>"; };
+		551C27AB244324600040DC28 /* Werewolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werewolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551C27AE244324600040DC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		551C27B0244324600040DC28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		551C27B3244324600040DC28 /* Smallblueq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smallblueq.xcdatamodel; sourceTree = "<group>"; };
-		551C27B5244324600040DC28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		551C27B5244324600040DC28 /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
 		551C27B7244324640040DC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		551C27BA244324640040DC28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		551C27BD244324640040DC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		551C27BF244324640040DC28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		551C27C524432FCF0040DC28 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		551C27C7244330120040DC28 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		551C27C92443303D0040DC28 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		551C27CB244357090040DC28 /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		551C27CD2443577A0040DC28 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		551C27CF244357E10040DC28 /* CharacterOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterOverview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +63,7 @@
 		551C27AC244324600040DC28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				551C27AB244324600040DC28 /* Smallblueq.app */,
+				551C27AB244324600040DC28 /* Werewolf.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,8 +73,15 @@
 			children = (
 				551C27AE244324600040DC28 /* AppDelegate.swift */,
 				551C27B0244324600040DC28 /* SceneDelegate.swift */,
-				551C27B5244324600040DC28 /* ContentView.swift */,
+				551C27C92443303D0040DC28 /* CharacterData.swift */,
+				551C27B5244324600040DC28 /* CharacterList.swift */,
+				551C27C524432FCF0040DC28 /* CharacterDetail.swift */,
+				551C27CD2443577A0040DC28 /* AppView.swift */,
+				551C27C7244330120040DC28 /* Character.swift */,
+				551C27CB244357090040DC28 /* CharacterRow.swift */,
+				551C27CF244357E10040DC28 /* CharacterOverview.swift */,
 				551C27B7244324640040DC28 /* Assets.xcassets */,
+				331402AB24449A2000444ECF /* Werewolf.entitlements */,
 				551C27BC244324640040DC28 /* LaunchScreen.storyboard */,
 				551C27BF244324640040DC28 /* Info.plist */,
 				551C27B2244324600040DC28 /* Smallblueq.xcdatamodeld */,
@@ -95,7 +115,7 @@
 			);
 			name = Smallblueq;
 			productName = Smallblueq;
-			productReference = 551C27AB244324600040DC28 /* Smallblueq.app */;
+			productReference = 551C27AB244324600040DC28 /* Werewolf.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,10 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551C27CA2443303D0040DC28 /* CharacterData.swift in Sources */,
 				551C27B4244324600040DC28 /* Smallblueq.xcdatamodeld in Sources */,
+				551C27CE2443577A0040DC28 /* AppView.swift in Sources */,
 				551C27AF244324600040DC28 /* AppDelegate.swift in Sources */,
-				551C27B6244324600040DC28 /* ContentView.swift in Sources */,
+				551C27C624432FCF0040DC28 /* CharacterDetail.swift in Sources */,
+				551C27C8244330120040DC28 /* Character.swift in Sources */,
+				551C27B6244324600040DC28 /* CharacterList.swift in Sources */,
 				551C27B1244324600040DC28 /* SceneDelegate.swift in Sources */,
+				551C27D0244357E10040DC28 /* CharacterOverview.swift in Sources */,
+				551C27CC244357090040DC28 /* CharacterRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,16 +314,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Smallblueq/Werewolf.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Smallblueq/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Smallblueq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.Smallblueq;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Werewolf;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "CharacterIntro-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,16 +338,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Smallblueq/Werewolf.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Smallblueq/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Smallblueq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.Smallblueq;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Werewolf;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "CharacterIntro-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
